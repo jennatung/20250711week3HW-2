@@ -18,6 +18,12 @@ a{
     text-decoration: none;
 }
 
+button{
+    all: unset;
+    display: inline-block;
+    cursor: pointer;
+}
+
 // 網站主色-color
 .color-p-100{
     color: $color-primary-100;
@@ -157,7 +163,7 @@ a{
 }
          
 // 按鈕樣式
-.btn-xl-dark, .btn-xl-bright, .btn-xl-light{
+.btn-xl-dark, .btn-xl-bright, .btn-xl-light, .btn-xl-option{
     border-radius: $radius-sm;
     padding: $space-s $space-l;
 }
@@ -186,7 +192,24 @@ a{
     background-color: $color-neutral-900;
     color: $text-on-dark-NWhite;
 }
+// Option按鈕
+.btn-xl-option{
+    border: 1px solid $color-neutral-300;
+    color: $color-neutral-900;
+}
+.btn-xl-option:hover{
+    border: 1px solid $color-neutral-600;
+}
+.btn-xl-option:focus{
+    border: 1px solid $color-neutral-900;
+} 
 
+// 卡片圖Hover、Pressed樣式
+.img-hover:hover{   
+    img{
+        opacity: 0.8;   
+    }
+}
 
 // 導覽列樣式
 .navbar-btn{
@@ -257,9 +280,43 @@ a{
     border-bottom: 1px solid $color-neutral-300;
 }
 
-
 // 禁止點擊
 .disabled{
     opacity: 0.4;
     cursor: not-allowed;
+}
+
+// 間距
+.space-xxs{
+    gap: $space-xxs;
+}
+.space-xs{
+    gap: $space-xs;
+}
+.space-s{
+    gap: $space-s;
+}
+.space-m{
+    gap: $space-m;
+}
+.space-l{
+    gap: $space-l;
+}
+.space-xl{
+    gap: $space-xl;
+}
+.space-2xl{
+    gap: $space-2xl;
+}
+.space-3xl{
+    gap: $space-3xl;
+}
+.space-4xl{
+    gap: $space-4xl;
+}
+.space-5xl{
+    gap: $space-5xl;
+}
+.space-6xl{
+    gap: $space-6xl;
 }
