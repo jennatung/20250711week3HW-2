@@ -1,0 +1,47 @@
+.URBNSTEP-section{
+    background-image: url(../images/banner.png) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 289px;
+    padding-bottom: 288px;
+    padding-left: 200px;
+}
+
+.cellphone-nav{
+    display: none;
+}
+
+.cellphone-nav-left,.cellphone-nav-right{
+    font-weight: $font-weight-M;
+    padding-top: $space-s;
+    padding-bottom: $space-s; 
+    width: 50%;
+    text-align: center;
+
+}
+
+.cellphone-nav-left{
+    background-color: $color-primary-200;
+}
+
+.cellphone-nav-right{
+    background-color: $color-primary-100;
+}
+
+@media (max-width: 768px){
+    .URBNSTEP-section{
+        background-image: url(../images/banner-sm.png);
+        padding: 155px 24px;
+    }
+    .URBNSTEP-section.text-d-1{
+        font-size: 48px;
+    }
+    .URBNSTEP-section{
+        font-size: 20px;
+    }
+    .cellphone-nav{
+        display: block;
+    }
+
+} 

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>商品列表｜URENSTEP</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+    <main>
+      <div class="container">
+        <ol class="d-flex pt-32 pb-24">
+          <li><a href="index.html" class="text-l-md font-weight-M text-color-n-600 pr-12">首頁</a></li>
+          <li class="slash pr-12">/</li>
+          <li><a href="#" class="text-l-md font-weight-M text-color-n-600 pr-12">女鞋</a></li>
+          <li class="slash pr-12">/</li>
+          <li><a href="index.html" class="text-l-md font-weight-M text-color-n-900 pr-12">所有商品</a></li>
+        </ol>
+
+        <!-- 標題 -->
+        <h1 class="text-h-h3 font-weight-B text-color-n-900 py-7 pb-24">女鞋</h1>
+        
+        <div class="d-flex jc-sb">
+          <ul class="sidebar all-item-sidebar-md">
+            <li><a href="all-item.html" class="text-l-md font-weight-M py-12 text-color-p-400 sidebar-list">所有商品</a></li>
+            <li><a href="#" class="text-l-md font-weight-M py-12 text-color-n-900 sidebar-list">慢跑鞋</a></li>
+            <li><a href="#" class="text-l-md font-weight-M py-12 text-color-n-900 sidebar-list">滑板鞋</a></li>
+            <li><a href="#" class="text-l-md font-weight-M py-12 text-color-n-900 sidebar-list">厚底鞋</a></li>
+            <li><a href="#" class="text-l-md font-weight-M py-12 text-color-n-900 sidebar-list">限定 / 聯名企劃</a></li>
+          </ul>
+          
+          <div>
+            <!-- 所有品項 -->
+            <ul class="all-item">
+              <li class="all-item-card">
+                <a href="product-platform404.html">
+                    <img src="../assets/images/product.png" alt="PLATFORM 404-黑" class="mb-12">
+                    <p class="mb-4 text-h-h6 font-weight-B text-color-n-900">PLATFORM 404</p>
+                    <p class="text-l-md font-weight-M text-color-n-900">NT$2,600</p>
+                </a>
+              </li>
+              <li class="all-item-card">
+                <a href="#">
+                    <img src="../assets/images/product-1.png" alt="PLATFORM 404-黃" class="mb-12">
+                    <p class="mb-4 text-h-h6 font-weight-B text-color-n-900">PLATFORM 404</p>
+                    <p class="text-l-md font-weight-M text-color-n-900">NT$2,600</p>
+                </a>
+              </li>
+              <li class="all-item-card">
+                <a href="#">
+                    <img src="../assets/images/product-2.png" alt="VM001-灰" class="mb-12">
+                    <p class="mb-4 text-h-h6 font-weight-B text-color-n-900">VM001</p>
+                    <p class="text-l-md font-weight-M text-color-n-900">NT$2,600</p>
+                </a>
+              </li>
+              <li class="all-item-card">
+                <a href="#">
+                    <img src="../assets/images/product-3.png" alt="Melty Kiss-紫粉" class="mb-12">
+                    <p class="mb-4 text-h-h6 font-weight-B text-color-n-900">Melty Kiss</p>
+                    <p class="text-l-md font-weight-M text-color-n-900">NT$4,000</p>
+                </a>
+              </li>
+              <li class="all-item-card">
+                <a href="#">
+                    <img src="../assets/images/product-4.png" alt="BOOMBLOK-米白" class="mb-12">
+                    <p class="mb-4 text-h-h6 font-weight-B text-color-n-900">BOOMBLOK</p>
+                    <p class="text-l-md font-weight-M text-color-n-900">NT$3,200</p>
+                </a>
+              </li>
+              <li class="all-item-card">
+                <a href="#">
+                    <img src="../assets/images/product-5.png" alt="BOOMBLOK-藍" class="mb-12">
+                    <p class="mb-4 text-h-h6 font-weight-B text-color-n-900">BOOMBLOK</p>
+                    <p class="text-l-md font-weight-M text-color-n-900">NT$3,200</p>
+                </a>
+              </li>
+              <li class="all-item-card">
+                <a href="#">
+                    <img src="../assets/images/product-6.png" alt="R:UNER-米" class="mb-12">
+                    <p class="mb-4 text-h-h6 font-weight-B text-color-n-900">R:UNER</p>
+                    <p class="text-l-md font-weight-M text-color-n-900">NT$4,000</p>
+                </a>
+              </li>
+              <li class="all-item-card">
+                <a href="#">
+                    <img src="../assets/images/product-7.png" alt="Sugar Snap-鵝黃" class="mb-12">
+                    <p class="mb-4 text-h-h6 font-weight-B text-color-n-900">Sugar Snap</p>
+                    <p class="text-l-md font-weight-M text-color-n-900">NT$4,000</p>
+                </a>
+              </li>
+              <li class="all-item-card">
+                <a href="#">
+                    <img src="../assets/images/product-8.png" alt="Neofoam-灰" class="mb-12">
+                    <p class="mb-4 text-h-h6 font-weight-B text-color-n-900">Neofoam</p>
+                    <p class="text-l-md font-weight-M text-color-n-900">NT$4,000</p>
+                </a>
+              </li>
+            </ul>
+
+            <!-- 頁碼 -->
+            <ul class="pagination">
+              <li><a href="#" class="pagination-num py-10 disabled"><i class="bi bi-chevron-left"></i></a></li>
+              <li><a href="#" class="pagination-num py-8 color-bg-300">1</a></li>
+              <li><a href="#" class="pagination-num py-8">2</a></li>
+              <li><a href="#" class="pagination-num py-8">3</a></li>
+              <li><a href="#" class="pagination-num py-8">...</a></li>
+              <li><a href="#" class="pagination-num py-8">10</a></li>
+              <li><a href="#" class="pagination-num py-10"><i class="bi bi-chevron-right"></i></a></li>
+            </ul>
+
+          </div>
+          
+        </div>
+
+
+
+ 
+      </div>
+    </main>
+
+
+
+    <%- include('./layout/ad'); -%>
+    <%- include('./layout/footer'); -%>
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

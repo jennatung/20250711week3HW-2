@@ -1,0 +1,102 @@
+.story-background{
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero2.png);
+    text-align: center;
+    padding: 151px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 768px){
+    .story-background .text-h-h1{
+        font-size: 28px;
+        line-height: 1.2;
+        letter-spacing: 0.05em;        
+    }
+    .story-background .text-h-h3{
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.05em;        
+    }
+}
+
+.story{
+    justify-content: center;
+    padding-top: $space-5xl;
+    margin-bottom: $space-5xl;
+    gap: $space-3xl;
+}
+
+
+.story-brand{
+    background: $color-primary-100;
+    text-align: center;
+    padding: $space-xl;
+    border-radius: $radius-sm;
+}
+
+.story-intro{
+    display: flex;
+    flex-direction: column;
+    margin-top: $space-l;
+    gap: $space-m;
+    padding-bottom: $space-3xl;
+    border-bottom: 1px solid $color-neutral-300;
+}
+
+.story-list{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid $color-neutral-300;
+    gap: $space-s;
+    padding-bottom: $space-3xl;
+    .text-h-h4{
+        padding-bottom: $space-l;
+    }
+    .text-p-md{
+        margin-bottom: $space-s;
+    }
+    .text-l-md{
+        margin-bottom: $space-xs;
+    }
+    
+
+}
+
+
+@media (max-width: 768px){
+    .story{
+        padding-top: $space-xl;
+        margin-bottom: $space-xl;
+        gap: $space-xl;
+        .text-h-h4{
+            font-size: 20px;
+            padding-top: $space-m;
+        }
+    }
+
+    .story-brand{
+        padding: $space-l; 
+    }
+
+    .story-intro{
+        margin-top: $space-m;
+        gap: $space-s;
+        padding-bottom: $space-xl;
+        .text-h-h5{
+            font-size: 16px;
+        }
+    }
+
+    .story-list{
+        padding-bottom: $space-xl;
+        .text-h-h4{
+            font-size: 20px;
+            margin-top: -16px;
+            padding-bottom: $space-m;
+        }
+    }
+
+    
+}

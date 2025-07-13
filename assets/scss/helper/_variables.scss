@@ -1,0 +1,77 @@
+// LOGO字型
+$logo-font:'Mina', sans-serif;
+
+// 主要字型
+$font-family-base: "Noto Sans TC", sans-serif;
+
+// 字重
+$font-weight-R: 400;
+$font-weight-M: 500;
+$font-weight-B: 700;
+
+// 文字主要顏色
+$text-primary-N900: #212529;
+$text-secondary-N600: #6C757D;
+$text-muted-N500: #ADB5BD;
+$text-highlight-P400: #57A203;
+$text-on-dark-NWhite: #FFFFFF;
+
+// 主要顏色
+$color-primary-100: #F5FEE7;
+$color-primary-200: #E8FEC5;
+$color-primary-300: #C0FA73;
+$color-primary-400: #57A203;
+$color-primary-500: #477A11;
+
+
+// Neutral顏色 
+$color-neutral-0: #FFFFFF;
+$color-neutral-100: #F8F9FA;
+$color-neutral-200: #E9ECEF;
+$color-neutral-300: #DEE2E6;
+$color-neutral-400: #CED4DA; 
+$color-neutral-500: #ADB5BD;
+$color-neutral-600: #6C757D;
+$color-neutral-700: #495057;
+$color-neutral-800: #343A40;
+$color-neutral-900: #212529;
+
+
+// Functional顏色-Danger
+$color-functional-Danger-100: #FCF1F1;
+$color-functional-Danger-100: #EBA7A7;
+$color-functional-Danger-100: #E9ECEF;
+
+// Functional顏色-Warning
+$color-functional-Danger-100: #FEF6EC;
+$color-functional-Danger-100: #F9C588;
+$color-functional-Danger-100: #F38B12;
+
+// Functional顏色-Success
+$color-functional-Danger-100: #EFF8F4;
+$color-functional-Danger-100: #9AD1BA;
+$color-functional-Danger-100: #36A375;
+
+// Functional顏色-Info
+$color-functional-Danger-100: #EEF5FC;
+$color-functional-Danger-100: #97C3ED;
+$color-functional-Danger-100: #3087DB;
+
+
+// Spacing
+$space-xxs: 4px;
+$space-xs: 8px;
+$space-s: 12px;
+$space-m: 16px;
+$space-l: 24px;
+$space-xl: 32px;
+$space-2xl: 40px;
+$space-3xl: 48px;
+$space-4xl: 56px;
+$space-5xl: 64px;
+$space-6xl: 80px;
+
+// Radius
+$radius-sm: 4px;
+$radius-md: 12px;
+$radius-rounded: 1000px;

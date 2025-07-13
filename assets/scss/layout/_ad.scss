@@ -1,0 +1,13 @@
+.ad{
+    background-color: $color-primary-200;
+    padding-top: $space-l;
+    padding-bottom: $space-l;
+    text-align: center;
+    margin-top: $space-3xl;
+}
+
+@media (max-width: 768px){
+    .ad{
+        margin-top: $space-l;
+    }
+}

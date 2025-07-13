@@ -1,0 +1,265 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Noto Sans TC", sans-serif;
+    line-height: 1.5;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+// 網站主色-color
+.color-p-100{
+    color: $color-primary-100;
+}
+.color-p-200{
+    color: $color-primary-200;
+}
+.color-p-300{
+    color: $color-primary-300;
+}
+.color-p-400{
+    color: $color-primary-400;
+}
+.color-p-500{
+    color: $color-primary-500;
+}
+
+// 網站主色-color
+.color-bg-100{
+    background-color: $color-primary-100;
+}
+.color-bg-200{
+    background-color: $color-primary-200;
+}
+.color-bg-300{
+    background-color: $color-primary-300;
+}
+.color-bg-400{
+    background-color: $color-primary-400;
+}
+.color-bg-500{
+    background-color: $color-primary-500;
+}
+
+
+// 文字主色
+.text-color-n-900{
+    color: $text-primary-N900;
+}
+.text-color-n-600{
+    color: $text-secondary-N600;
+}
+.text-color-n-500{
+    color: $text-muted-N500;
+}
+.text-color-p-400{
+    color: $text-highlight-P400;  
+}
+.text-color-n-white{
+    color: $text-on-dark-NWhite;
+}
+
+// 字重
+.font-weight-R{
+    font-weight: 400;
+}
+.font-weight-M{
+    font-weight: 500;
+}
+.font-weight-B{
+    font-weight: 700;
+}
+ 
+
+// 文字樣式
+.text-d-1{
+    font-size: 64px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+}
+.text-d-2{
+    font-size: 48px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;    
+}
+.text-h-h1{
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;    
+}
+.text-h-h2{
+    font-size: 32px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;    
+}
+.text-h-h3{
+    font-size: 28px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;    
+}
+.text-h-h4{
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;    
+}
+.text-h-h5{
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;    
+}
+.text-h-h6{
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;    
+}
+.text-l-lg{
+    font-size: 20px;
+    letter-spacing: 0.05em;   
+}
+.text-l-md{
+    font-size: 16px;
+    letter-spacing: 0.05em; 
+}
+.text-l-sm{
+    font-size: 14px;
+    letter-spacing: 0.05em;   
+}
+.text-l-xs{
+    font-size: 12px;
+    letter-spacing: 0.05em;  
+}
+.text-p-lg{
+    font-size: 20px;
+    letter-spacing: 0.05em; 
+}
+.text-p-md{
+    font-size: 16px;
+    letter-spacing: 0.05em; 
+}
+.text-p-sm{
+    font-size: 14px;
+    letter-spacing: 0.05em;
+}
+.text-p-xs{
+    font-size: 12px;
+    letter-spacing: 0.05em; 
+}
+         
+// 按鈕樣式
+.btn-xl-dark, .btn-xl-bright, .btn-xl-light{
+    border-radius: $radius-sm;
+    padding: $space-s $space-l;
+}
+
+.btn-xl-dark{
+    background-color: $color-neutral-900;
+    color: $text-on-dark-NWhite;
+}
+.btn-xl-dark:hover{
+    background-color: $color-neutral-700;
+}
+
+.btn-xl-bright{
+    background-color: $color-primary-300;
+    color: $color-neutral-900;
+}
+.btn-xl-bright:hover{
+    color: $color-primary-500;
+}
+
+.btn-xl-light{
+    border: 1px solid $color-neutral-900;
+    color: $color-neutral-900;
+}
+.btn-xl-light:hover{
+    background-color: $color-neutral-900;
+    color: $text-on-dark-NWhite;
+}
+
+
+// 導覽列樣式
+.navbar-btn{
+    font-weight: $font-weight-M;
+    color: $text-primary-N900;
+    padding-top: $space-s;
+    padding-bottom: $space-s;
+    gap: $space-xs;
+}
+
+.navbar-icon{
+    display: block;
+    font-size: 18px;
+    padding: 15px;
+    color: $text-primary-N900;
+}
+
+.navbar-icon:hover{
+    color: $text-highlight-P400;
+}
+
+.slash{
+    font-weight: $font-weight-B;
+    letter-spacing: 0;
+    line-height: 1.5;
+    color: $color-neutral-300;
+}
+
+// 側邊欄樣式
+.sidebar{
+    max-width: 196px;
+    font-weight: $font-weight-M;
+    padding-right: $space-l;
+}
+
+.sidebar-list{
+    margin-bottom: $space-m;
+    width: 172px;
+}
+
+.sidebar-list:hover{
+    color: $text-secondary-N600;
+}
+
+// 排序的列點樣式
+.border-left-gray{
+    border-left: 3px solid $color-neutral-300;
+    padding-left: 12px;
+}
+
+// Link
+.link{
+    font-weight: $font-weight-M;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    color: $color-primary-400;
+    padding-bottom: 4px;
+    border-bottom: 1px solid $color-primary-400;
+}
+.link:hover{
+    color: $color-primary-500;
+    border-bottom: 1px solid $color-primary-500;
+}
+
+
+// 分隔底線
+.border-bottom-n300{
+    border-bottom: 1px solid $color-neutral-300;
+}
+
+
+// 禁止點擊
+.disabled{
+    opacity: 0.4;
+    cursor: not-allowed;
+}

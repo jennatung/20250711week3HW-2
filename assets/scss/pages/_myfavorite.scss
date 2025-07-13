@@ -1,0 +1,53 @@
+.myfavorite{
+    flex-direction: column;
+    align-items: center;
+    gap: $space-xl;
+    padding: $space-5xl 0;
+}
+
+.myfavorite-icon{
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $color-primary-300;
+    color: $color-primary-500;
+    border-radius: $radius-rounded;
+    margin-right: 16px;
+}
+
+.myfavorite-df-NTwords{
+    display: flex;
+}
+
+.bi-truck{
+    padding-left: 16px;
+    padding-right: 12px;
+}
+
+.myfavorite-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.myfavorite-card-price{
+    text-align: right;
+    transform: scaleY(0.9); 
+}
+
+@media (max-width: 768px){
+    .myfavorite{
+        gap: $space-l;
+        padding: $space-l 0;
+    }
+    .myfavorite-df-NTwords{
+        flex-direction: column;
+    }
+    .myfavorite-card-price{
+        text-align: left;
+    }
+}
