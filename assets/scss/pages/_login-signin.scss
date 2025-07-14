@@ -1,0 +1,95 @@
+.login-left-pic{
+  background-image: url('../images/login.png');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  border-radius: $radius-md;
+  height: 100%;
+}
+
+.login-left-sm-pic{
+    display: none;
+}
+
+@media (max-width: 768px){
+    .py-sm-0{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .fd-sm-cloumn{
+        flex-direction: column;
+    }
+    .login-left-pic{
+        display: none;
+    }
+    .login-left-sm-pic{
+        display: block;
+    }
+}
+
+.login-right-block{
+    background-image: url(../images/login-bg.png);
+    border-radius: $radius-md;
+    display: block;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+@media (max-width: 768px){
+    .login-right-block{
+        background: none;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+}
+
+.loginin-right-main{
+    display: flex;
+    max-width: 586px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: $space-xl;
+}
+
+// 登入註冊區塊
+.log-sign-block{
+    display: flex;
+    width: 100%;
+}
+// 登入註冊按鈕
+.log-sign-btn{
+    display: block;
+    width: 50%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+// 登入註冊按鈕-底線顏色
+.log-sign-btn-border-dark{
+    border-bottom: 2px solid $text-primary-N900;
+}
+.log-sign-btn-border-light{
+    border-bottom: 2px solid $color-neutral-300;
+}
+
+
+// 第三方登入區塊
+.oauth-block{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 8px;
+}
+// 第三方登入按鈕
+.oauth-btn{
+    width: 100%;
+    background-color: $color-neutral-0;
+    border: 1px solid $color-neutral-300;
+    display: flex;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    align-items: center;
+}
