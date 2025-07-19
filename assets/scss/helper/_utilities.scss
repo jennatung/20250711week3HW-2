@@ -30,6 +30,15 @@
     align-items: center;
 }
 
+.text-align-center{
+    text-align: center;
+}
+
+.position-relative{
+    position: relative;
+}
+
+
 .py-7{
     padding: 7px 0;
 }
@@ -103,12 +112,28 @@
     padding-bottom: 4px;
 }
 
+.pb-8{
+    padding-bottom: 8px;
+}
+
+.pb-12{
+    padding-bottom: 12px;
+}
+
+.pb-16{
+    padding-bottom: 16px;
+}
+
 .pb-24{
     padding-bottom: 24px;
 }
 
 .pb-32{
     padding-bottom: 32px;
+}
+
+.pb-40{
+    padding-bottom: 40px;
 }
 
 .pb-48{

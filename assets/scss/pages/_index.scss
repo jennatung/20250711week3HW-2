@@ -45,3 +45,108 @@
     }
 
 } 
+
+.img-tag{
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 12px;
+    padding-left: 12px;
+    background-color: $color-primary-100;
+    color: $color-primary-400;
+    position: absolute;
+    left: 12px;
+    top: 0;
+}
+
+.index-middle-img{
+    width: 100%;
+    background-image: url(../images/banner-co-branded.png);
+    padding: 100px 0;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.index-middle-ad-decor-left{
+    position: absolute;
+    left: 20%;
+    top: 8%;
+}
+
+.index-middle-ad-decor-right{
+    position: absolute;
+    left: 70%;
+    bottom: 15%;
+}
+
+.dark-img-btm{
+    max-width: 306px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: red;
+    aspect-ratio: 1 / 1;
+}
+
+.dark-img-btm:hover{
+    opacity: 0.8;
+}
+
+.dark-img-btm.URBN-RUNNER{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/product-6.png);
+}
+
+.dark-img-btm.STREETMODE{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/product.png);
+}
+
+.dark-img-btm.CHUNK-DISTRICT{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/product-4.png);
+}
+
+.dark-img-btm.COLLAB-ZONE{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/product-10.png);
+}
+
+.index-picturewall{
+    display: flex;
+    column-gap: 8px;   
+}
+
+.index-picturewall-left{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    width: 66%;
+}
+
+.index-picturewall-right{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    width: 33%;
+}
+
+.index-picturewall-left-top{
+    display: flex;
+    flex-grow: 1;
+    column-gap: 8px;    
+}
+
+.ndex-picturewall-left-bottom{
+    display: flex;
+    column-gap: 8px;
+}
+
+.index-picturewall-left-bottom-right{
+    display: flex;
+    row-gap: 8px;
+}
