@@ -116,6 +116,10 @@
     aspect-ratio: 1 / 1;
 }
 
+.dark-img-btm:hover{
+    opacity: 0.9;
+}
+
 .dark-img-btm .text-h-h3:hover{
     color: $color-primary-300;
 }
@@ -199,6 +203,9 @@
 
 @media (max-width: 768px){
     .index-sm{
+        .text-d-1{
+            font-size: 36px;
+        }
         .text-d-2{
             font-size: 32px; 
         }
